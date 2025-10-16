@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gyt"
+version = "0.1.0"
+description = "Git-like daily milestone tracker"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["typer>=0.12", "rich>=13.0"]
+
+[project.scripts]
+gyt = "gyt.cli:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
