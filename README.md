@@ -1,5 +1,7 @@
 # Gyt - Git for Your Life
 
+![Gyt Icon](https://github.com/Cli0808/Gyt/blob/main/gyt_icon.png?raw=true)
+
 A fun CLI tool that mimics git, but for tracking daily milestones and habits. Commit your daily achievements and visualize them on a contribution heatmap (gythub - coming soon!).
 
 ## Installation
