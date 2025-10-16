@@ -1,2 +1,0 @@
-[console_scripts]
-gyt = gyt.cli:app
